@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bondi</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css" />
+    <link rel="stylesheet" href="./css/all.min.css" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- start nav -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/logo.png"
+            alt="logo"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+        <i class="fa-solid fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto mb-3 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active p-2 p-lg-3 fw-normal" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 fw-normal" href="#services">Services</a>
+            </li>
+            <li class="nav-item ">
+              <a class="nav-link p-2 p-lg-3 fw-normal" href="#Portfolio">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 fw-normal" href="#footer">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link p-2 p-lg-3 fw-normal" href="#sub">Contact</a>
+            </li>
+          </ul>
+          <div class="search ps-3 d-none d-lg-block">
+            <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
+          <a href="#" class="main-btn btn rounded-pill px-3 py-2 ms-lg-3">Login</a>
+        </div>
+      </div>
+    </nav>
+    <!-- end nav -->
+    <!-- start landing -->
+    <div class="landing d-flex justify-content-center align-items-center">
+      <div class="text-center">
+        <h1 class="mb-2 fw-bold">Taste The Creativity</h1>
+        <p class="mb-5 text-white-50 ">We Make Awesome Graphic And Web Design</p>
+        <button type="button" class="btn btn-primary rounded-pill px-3 py-2">Get Started</button>
+      </div>
+    </div>
+    <!-- end landing -->
+    <!-- start features -->
+    <div class="features text-center py-5" id="services">
+      <div class="container">
+        <div class="main-title position-relative my-5">
+          <img class="mb-3" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/title.png" alt="">
+          <h2 class="fw-bolder">We Are Good At</h2>
+          <p class="text-uppercase text-black-50">some of these stuff below</p>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-holder">
+              <i class="fa-solid fa-1 number"></i>
+              <i class="fa-solid fa-pen icon fa-4x"></i>
+            </div>
+            <h4 class="text-uppercase fw-bold mt-3">graphic design</h4>
+            <p class="text-black-50 lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit ma
+              gni vero repellat dolore velit. ci assumenda recusandae.</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-holder">
+              <i class="fa-solid fa-2 number"></i>
+              <i class="fa-solid fa-tv icon fa-4x"></i>
+            </div>
+            <h4 class="text-uppercase fw-bold mt-3">graphic design</h4>
+            <p class="text-black-50 lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit ma
+              gni vero repellat dolore velit. ci assumenda recusandae.</p>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-holder">
+              <i class="fa-solid fa-3 number"></i>
+              <i class="fa-solid fa-plug icon fa-4x"></i>
+            </div>
+            <h4 class="text-uppercase fw-bold mt-3">graphic design</h4>
+            <p class="text-black-50 lh-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit ma
+              gni vero repellat dolore velit. ci assumenda recusandae.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end features -->
+    <!-- start work -->
+    <div class="work text-center py-5" id="Portfolio">
+      <div class="container">
+        <div class="main-title position-relative my-5">
+          <img class="mb-3" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/title.png" alt="">
+          <h2 class="fw-bolder">We Make This</h2>
+          <p class="text-uppercase text-black-50">prepare to be amazed</p>
+        </div>
+        <ul class="taps list-unstyled d-flex justify-content-center align-items-center my-5">
+          <li class="px-3 py-2  active">All</li>
+          <li class="px-3 py-2 ">Design</li>
+          <li class="px-3 py-2 ">Code</li>
+          <li class="px-3 py-2 ">Photography</li>
+          <li class="px-3 py-2 ">Apps</li>
+        </ul>
+        <div class="row d-flex justify-content-center align-items-center my-lg-5">  
+            <div class="all box mb-3 bg-white active col-lg-3 col-md-4 col-sm-6" data-content="Apps">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/work-03.jpg" alt="">
+            </div>
+            <div class="all box mb-3 bg-white active col-lg-3 col-md-4 col-sm-6" data-content="Code">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/work-07.jpg" alt="">
+            </div>
+            <div class="all box mb-3 bg-white active col-lg-3 col-md-4 col-sm-6" data-content="Code">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/work-06.jpg" alt="">
+            </div>
+            <div class="all box mb-3 bg-white active col-lg-3 col-md-4 col-sm-6" data-content="Code">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/work-05.jpg" alt="">
+            </div>
+            <div class="all box mb-3 bg-white active col-lg-3 col-md-4 col-sm-6" data-content="Photography">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/work-04.jpg" alt="">
+            </div>
+            <div class="all box mb-3 bg-white active col-lg-3 col-md-4 col-sm-6" data-content="Design">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/work-08.jpg" alt="">
+            </div>
+            <div class="all box mb-3 bg-white active col-lg-3 col-md-4 col-sm-6" data-content="Design">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/work-02.jpg" alt="">
+            </div>
+            <div class="all box mb-3 bg-white active col-lg-3 col-md-4 col-sm-6" data-content="Photography">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/work-01.jpg" alt="">
+            </div>
+        </div>
+      </div>
+    </div>
+    <!-- end work -->
+    <!-- start stuff section -->
+    <div class="stuff text-center py-5">
+      <div class="container">
+        <div class="main-title position-relative my-5 ">
+          <img class="mb-3" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/title.png" alt="">
+          <h2 class="fw-bolder">Some Stuff About Us</h2>
+          <p class="text-uppercase text-black-50">the great team</p>
+        </div>
+        <p class="descreption text-black-50 m-auto m-auto">Lorem ipsum dolor sit amet consecteturewfdew adipi  praesentium expedita libero labore s
+          ed culpa. Aute  eritattatibus  obcaecati exercitationemtio quaerat!</p>
+          <div class="row mt-5">
+            <div class="col-lg-4">
+              <div class="text text-center text-lg-start my-5 ">
+                <h4 class="fw-bold">Retain Design</h4>
+                <p class="text-black-50">Lorem ipsum dolormet, reprehenderit excepturi ex
+                  ercitationem eos! Nihil, aliquam. Iuerg rewgewrgwerg rewgsttae explicabo.</p>
+                  <p class="text-black-50">Lorem ipsum dolor re gergerg ersit refewefwe wefwef
+                    wefewf ewfwefrg reggrefwerf wefwefe amet consectetur adipisicing  in. Facere!</p>
+                  <button type="button" class="btn btn-primary rounded-pill px-5 py-2">ORDER ME ONE</button>
+              </div>
+            </div>
+            <div class="col-lg-8">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/laptop.png" alt="photo">
+            </div>
+          </div>
+      </div>
+    </div>
+    <!-- end stuff section -->
+    <!-- start team -->
+    <div class="team text-center py-5">
+      <div class="container">
+        <div class="text">
+          <h1 class="headline fw-bold">Meet The Team</h1>
+          <p class="lh-3 text-black-50 ">Lorem ipsum dolor sit, amet consectetur g elit. Minima sequi sed nemo asperiores
+              Omnis qui voluptatem id magni ipsum, accusamus ulls eum, ut praesentium?</p>
+        </div>
+        <div class="row my-5">
+          <div class="col-lg-3 col-md-6">
+            <div class="box bg-light">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/team-1.png" alt="">
+              <h4 class="name fw-bold px-3 py-3  ">Zeyad Belal</h4>
+              <blockquote class="p-2 text-black-50 "> “Lorem ipsum dolor sit amet consnisi ali
+                as illo odio cum rem tenetur?unt neque facere”</blockquote>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box bg-light">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/team-2.png" alt="">
+              <h4 class="name fw-bold px-3 py-3  ">Zeyad Belal</h4>
+              <blockquote class="p-2 text-black-50"> “Lorem ipsum dolor sit amet consnisi ali
+                as illo odio cum rem tenetur?unt neque facere”</blockquote>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box bg-light">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/team-3.png" alt="">
+              <h4 class="name fw-bold px-3 py-3  ">Zeyad Belal</h4>
+              <blockquote class="p-2 text-black-50"> “Lorem ipsum dolor sit amet consnisi ali
+                as illo odio cum rem tenetur?unt neque facere”</blockquote>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6">
+            <div class="box bg-light">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/team-4.png" alt="">
+              <h4 class="name fw-bold px-3 py-3  ">Zeyad Belal</h4>
+              <blockquote class="p-2 text-black-50"> “Lorem ipsum dolor sit amet consnisi ali
+                as illo odio cum rem tenetur?unt neque facere”</blockquote>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end team -->
+    <!-- start tech  -->
+    <div class="tech py-5">
+      <div class="container">
+        <div class="row text-center align-items-center">
+          <div class="col-lg-2 col-md-3 col-sm-6">
+            <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/tech-1.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 m-auto col-sm-6 my-3">
+            <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/tech-2.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 m-auto col-sm-6 my-3">
+            <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/tech-3.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 m-auto col-sm-6 my-3">
+            <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/tech-4.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 m-auto col-sm-6 my-3">
+            <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/tech-1.png" alt="">
+          </div>
+          <div class="col-lg-2 col-md-4 m-auto col-sm-6 my-3">
+            <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/tech-2.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end tech  -->
+    <!-- start project -->
+    <div class="project py-5 text-center">
+      <div class="container">
+        <h2>Start Your Project Now</h2>
+        <p class="text-white-50 pb-4">Leave yor description and we start the engine, Don't worry you can cancel anytime</p>
+        <button type="button" class="btn btn-primary rounded-pill px-3 py-2">START PROJECT</button>
+      </div>
+    </div>
+    <!-- end project -->
+    <!-- start blog -->
+    <div class="blog py-5">
+      <div class="container text-center">
+        <div class="main-title position-relative my-5 text-center">
+          <img class="mb-3" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/title.png" alt="">
+          <h2 class="fw-bolder">Read Our Blog</h2>
+          <p class="text-uppercase text-black-50">new stories</p>
+        </div>
+        <div class="row">
+          <div class=" col-lg-4 col-md-6">
+            <div class="box text-start ">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/blog-1.jpg" alt="">
+              <div class="text  p-2">
+                <div class="date text-black-50 py-2">Jan 17, 2025</div>
+                <h4 class="pb-3 fs-5 fw-bold">Awesome Blog Title Here</h4>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-6">
+            <div class="box text-start ">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/blog-2.jpg" alt="">
+              <div class="text  p-2">
+                <div class="date text-black-50 py-2">Jan 17, 2025</div>
+                <h4 class="pb-3 fs-5 fw-bold">Awesome Blog Title Here</h4>
+              </div>
+            </div>
+          </div>
+          <div class=" col-lg-4 col-md-6">
+            <div class="box text-start ">
+              <img class="img-fluid" src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/blog-3.jpg" alt="">
+              <div class="text  p-2">
+                <div class="date text-black-50 py-2">Jan 17, 2025</div>
+                <h4 class="pb-3 fs-5 fw-bold">Awesome Blog Title Here</h4>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+        <button type="button" class="btn btn-primary rounded-pill px-3 py-2 my-5">MORE STORIES</button>
+      </div>
+    </div>
+    <!-- end blog -->
+    <!-- start subscribtion -->
+    <div class="subscribe pt-5 pb-5 text-center text-md-start" id="sub">
+      <div class="container">
+        <form class="row align-items-center">
+          <div class="col-md-6 col-lg-3">
+            <div class="fw-bold fs-5 mb-3">Subscribe to our Newsletter:</div>
+          </div>
+          <div class="col-md-6 col-lg-7 mb-3">
+            <input class="w-100 text-light p-2 bg-transparent" type="text" placeholder="Enter Email Address" />
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <input class="btn rounded-pill" type="submit" value="Subscribe" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- end subscribtion -->
+    <!-- start footer  -->
+    <div class="footer pt-5 pb-5 text-white-50 text-center text-md-start" id="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4">
+            <div class="info mb-5">
+              <img src="https://elzerowebschool.github.io/Bootstrap_5_Design_01_Bondi/imgs/logo.png" alt="" class="mb-4" />
+              <p class="mb-5">
+                Pellentesque in ipsum id orci porta dapibus. Vivamus magna justo, lacinia eget consectetur sed,
+                convallis at tellus.
+              </p>
+              <div class="copyright">
+                Created By <span>Graphberry</span>
+                <div>&copy; 2022 - <span>Bondi Inc</span></div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">Links</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>Home</li>
+                <li>Our Services</li>
+                <li>Portfolio</li>
+                <li>Testimonials</li>
+                <li>Support</li>
+                <li>Terms and Condition</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-2">
+            <div class="links">
+              <h5 class="text-light">About Us</h5>
+              <ul class="list-unstyled lh-lg">
+                <li>Sign In</li>
+                <li>Register</li>
+                <li>About Us</li>
+                <li>Blog</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4">
+            <div class="contact">
+              <h5 class="text-light">Contact Us</h5>
+              <p class="lh-lg mt-3 mb-5">Get in touch with us via mail phone.We are waiting for your call or message</p>
+              <a class="btn rounded-pill main-btn w-100" href="#">graphberry@gmail.com</a>
+              <ul class="d-flex mt-5 list-unstyled gap-3">
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i class="fa-brands fa-facebook fa-lg facebook rounded-circle p-2"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i class="fa-brands fa-twitter fa-lg twitter rounded-circle p-2"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i class="fa-brands fa-linkedin fa-lg linkedin rounded-circle p-2"></i
+                  ></a>
+                </li>
+                <li>
+                  <a class="d-block text-light" href="#"
+                    ><i class="fa-brands fa-youtube fa-lg youtube rounded-circle p-2"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end footer  -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/all.min.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
